@@ -1,11 +1,12 @@
+const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
 const data = {
-    "slack_name": "example_name",
-    "current_day": "Monday",
-    "utc_time": "2023-08-21T15:04:05Z",
-    "track": "backend",
-    "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
-    "github_repo_url": "https://github.com/username/repo",
-    "status_code": 200
+    slack_name: "Adeyemo Akinola",
+    current_day: weekday[new Date().getDay()],
+    utc_time: new Date().toISOString(),
+    track: "backend",
+    github_file_url: "https://github.com/Akinz-bobo/HNG/blob/task-one/src/index",
+    github_repo_url: "https://github.com/Akinz-bobo/HNG",
   };
 
   export default data;
