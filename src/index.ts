@@ -7,7 +7,7 @@ app.use(json());
 
 app.use('/api',requirementRoute)
 app.use((err:Error, req:Request,res:Response,next:NextFunction)=>{
-    res.status(500).json({ message: err.message })
+    res.status(5000).json({ message: err.message })
 })
 
 
