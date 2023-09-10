@@ -6,7 +6,7 @@ const data = {
     current_day: weekday[new Date().getDay()],
     utc_time: new Date().toISOString(),
     track: "backend",
-    github_file_url: "https://github.com/Akinz-bobo/HNG/blob/task-one/src/index",
+    github_file_url: "https://github.com/Akinz-bobo/HNG/blob/task-one/src/index.ts",
     github_repo_url: "https://github.com/Akinz-bobo/HNG",
 };
 exports.default = data;
